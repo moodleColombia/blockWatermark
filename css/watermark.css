@@ -3,6 +3,7 @@
     content: attr(data-value);
     transform: rotate(-10deg);
     font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
     font-weight: bold;
     font-size: 4em;
     z-index: 1;
