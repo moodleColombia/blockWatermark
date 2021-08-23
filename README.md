@@ -54,6 +54,6 @@ function showToolinfo() {
 ***Nota:*** Recuerda modificar el archivo CSS para personalizar con el logo institucional o marca que se desea usar sobre el selector **.formulation::before**
 
 #### Información de contacto
-👋 Desarrollador: Diego Javier Mena Amado
-E-mail: ingelectronicadj@gmail.com
-Personal Website: https://diegiot.tk/
+👋 Desarrollador: Diego Javier Mena Amado  
+E-mail: ingelectronicadj@gmail.com  
+Personal Website: https://diegiot.tk/  
