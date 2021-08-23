@@ -28,25 +28,12 @@ La herramienta ha sido desarrollada en Javascript, implementa la librería Sweet
 2. Colocar el título de bloque: Block WaterMark
 Dentro del contenido pegar el siguiente código teniendo en cuenta la ruta de los archivos JS y CSS:
 ```html
-<p>Herramienta para contribuir a la integridad de actividades tipo cuestionario.</p>
-<button class="btn btn-info" onclick="showToolinfo()">Resumen</button>
+<div id="id_blockWatermark"></div>
 <!-- Sweetalert2-->
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 <!-- Block Watermark -->
-    <link rel="stylesheet" href="TU-RUTA-AL-ARCHIVO/css/watermark.css">
-   <script src="TU-RUTA-AL-ARCHIVO/js/disablePrintScreen.js"></script>
-<script>
-function showToolinfo() {
-    Swal.fire({
-        title: 'Block Watermark',
-        html: `<p>Es una herramienta que permite contribuir a la integridad de las evaluaciones con una serie de funcionalidades, tales como: fijar marca de agua con datos del alumno o profesor que presenta la evaluación, restringir diferentes métodos de capturas de pantalla y restringir métodos de intercambio de datos. </p><h2>Cierres automáticos:</h2> <ul style="text-align: justify"> <li>No se permite copiar</li> <li>No se permite pegar</li> <li>No se permite cortar</li> <li>No se permite exportar a PDF, ni imprimir</li> <li>No se permite realizar capturas de pantalla</li> <li>Se limita el recorte de pantalla</li> <li>No se permite hacer clic con el botón derecho del ratón</li></ul>`,
-        backdrop: true,
-        allowOutsideClick: false,
-        allowEscapeKey: false,
-        width: 650
-    });
-}
-</script>
+<link rel="stylesheet" href="TU-RUTA-AL-ARCHIVO/css/watermark.css">
+<script src="TU-RUTA-AL-ARCHIVO/js/disablePrintScreen.js"></script>
 ```
 3. Configurar Dónde aparece este bloque: Mostrar en todo el sitio. Vincular de preferencia un peso por defecto -10 (Primero).
 4. Ingresar a cualquier actividad tipo cuestionario de cualquier curso y volver a Configurar Dónde aparece este bloque: Cualquier página del módulo cuestionario.

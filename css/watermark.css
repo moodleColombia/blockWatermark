@@ -29,7 +29,7 @@
 }
 
 .formulation::before {
-    content: url(../img/logo.jpg);
+    content: url(../img/logo.png);
     opacity: 0.2;
     z-index: 1;
     display: flex;
